@@ -1,0 +1,24 @@
+{
+  "name": "message-board",
+  "version": "1.0.0",
+  "description": "My first MERN stack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackSwan9119/message-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BlackSwan9119/message-board/issues"
+  },
+  "homepage": "https://github.com/BlackSwan9119/message-board#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
