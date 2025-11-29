@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/BlackSwan9119/message-board#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "mongoose": "^9.0.0"
   }

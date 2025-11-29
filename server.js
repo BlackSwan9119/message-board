@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const Message = require('./models/Message');
 
 const app = express();
@@ -7,6 +8,7 @@ const PORT = 3000;
 
 // Middleware to parse JSON
 app.use(express.json());
+app.use(cors());
 
 // MongoDB connection string
 const MONGODB_URI = 'mongodb+srv://arudt_db_user:trEtFZHDRx4ck3MF@cluster0.hdnbfdk.mongodb.net/messageboard?appName=Cluster0';
