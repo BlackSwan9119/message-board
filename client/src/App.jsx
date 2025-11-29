@@ -7,7 +7,7 @@ function App() {
 
   const fetchMessages = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/messages')
+      const response = await fetch('/api/messages')
       const data = await response.json()
       setMessages(data)
     } catch (error) {
@@ -24,7 +24,7 @@ function App() {
     if (!newMessage.trim()) return
 
     try {
-      await fetch('http://localhost:3000/api/messages', {
+      await fetch('/api/messages', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
